@@ -49,6 +49,8 @@ function convertFahrToCelsius(fahr) {
 	}
 }
 
+convertFahrToCelsius();
+
 // Scecond Task - checkYuGiOh()
 
 /* 2. Write a function named "checkYuGiOh" that takes a number, n, as an argument, creates an array of numbers from 1 to n and replaces multiples of 2, 3, and 5 with "yu", "gi" and "oh", then returns the resulting array.*/
@@ -107,3 +109,5 @@ function checkYuGiOh(value) {
 	}
 	return result;
 }
+
+checkYuGiOh();
